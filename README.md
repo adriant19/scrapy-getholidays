@@ -17,7 +17,10 @@ Scrapy is a useful tool when it comes to webscraping and how it differs over oth
 
 ## Learnings and potential improvements
 
-This project is a simpler development as compared to some more complex programs that can be developed to tackle more challenging webpages. Some of the possible future works could be done are:
+This project is a simpler development as compared to some more complex programs that can be developed to tackle more challenging webpages.
+
+Some of the possible future works could be done are:
 
 -   Scraping product pages on e-commerce websites with the "follow link" feature, enabling the crawler to exhaustively scrape all available pages.
 -   Parallel scraping to speed up data pipelines.
+-   Using Scrapy Splash with Docker to simulate a light-weight browser for webpages that requires JS rendering (e.g. webpages that shows more information if you scroll down further).
